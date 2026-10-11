@@ -5,8 +5,8 @@ const http = require("node:http");
 const os = require("node:os");
 const { Pool } = require("pg");
 
-const VERSION = "v1";
-const COLOR = "#0071e3";
+const VERSION = "v2";
+const COLOR = "#2f9e44";
 
 // DATABASE_URL은 SBSB가 package.json의 pg 의존성을 보고 Postgres를 띄운 뒤 넣어 준다.
 const pool = new Pool({ connectionString: process.env.DATABASE_URL });
