@@ -2,12 +2,9 @@
   "name": "sbsb-final-demo",
   "version": "1.0.0",
   "private": true,
-  "description": "SBSB 시연 앱: 방문자 수를 Postgres에 저장 (재배포·롤백해도 숫자 유지)",
+  "description": "SBSB 시연 앱 v3: AWS EC2 배포용, DB 없음",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
-  },
-  "dependencies": {
-    "pg": "8.23.0"
   }
 }
